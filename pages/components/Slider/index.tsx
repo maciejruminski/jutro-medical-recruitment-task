@@ -11,6 +11,7 @@ export default function Slider(): JSX.Element {
           elit sed risus.
         </p>
         <button>Pobierz aplikację</button>
+        <img src="/images/mockups/mockup-1.png" alt="" />
       </div>
       <div>
         <img src="/images/icons/icon-2.svg" alt="" />
@@ -22,6 +23,7 @@ export default function Slider(): JSX.Element {
           elit sed risus.
         </p>
         <button>Pobierz aplikację</button>
+        <img src="/images/mockups/mockup-2.png" alt="" />
       </div>
       <div>
         <img src="/images/icons/icon-3.svg" alt="" />
@@ -33,6 +35,7 @@ export default function Slider(): JSX.Element {
           elit sed risus.
         </p>
         <button>Pobierz aplikację</button>
+        <img src="/images/mockups/mockup-3.png" alt="" />
       </div>
     </div>
   );
