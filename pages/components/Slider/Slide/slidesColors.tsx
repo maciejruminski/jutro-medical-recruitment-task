@@ -1,18 +1,18 @@
 const slidesColors: SlidesColors = [
   {
-    bg: "primary",
+    bg: "bg-primary",
     color: "text-white",
     buttonBg: "bg-secondary",
     buttonColor: "text-white",
   },
   {
-    bg: "secondary",
+    bg: "bg-secondary",
     color: "text-white",
     buttonBg: "bg-primary",
     buttonColor: "text-white",
   },
   {
-    bg: "tertiary",
+    bg: "bg-tertiary",
     color: "text-black",
     buttonBg: "bg-secondary",
     buttonColor: "text-white",
