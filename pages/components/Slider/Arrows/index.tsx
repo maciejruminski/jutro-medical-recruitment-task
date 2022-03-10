@@ -40,8 +40,8 @@ export default function Arrows({
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
+            className={`${slidesStyles[activeSlideIndex].arrowColor}`}
             d="M9.71355 15.5486L0.902832 8.50001L9.71355 1.45143"
-            stroke="white"
             stroke-width="1.54188"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -60,7 +60,7 @@ export default function Arrows({
         >
           <path
             d="M0.808542 15.5486L9.61926 8.50001L0.808542 1.45143"
-            stroke="white"
+            className={`${slidesStyles[activeSlideIndex].arrowColor}`}
             stroke-width="1.54188"
             stroke-linecap="round"
             stroke-linejoin="round"

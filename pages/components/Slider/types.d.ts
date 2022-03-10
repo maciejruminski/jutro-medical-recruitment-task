@@ -16,6 +16,7 @@ type SlideStyles = {
   buttonBg: string;
   buttonColor: string;
   mockupPosition: string;
+  arrowColor: string;
 };
 
 type SlidesStyles = SlideStyles[];
