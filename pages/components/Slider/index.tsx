@@ -2,6 +2,7 @@ export default function Slider(): JSX.Element {
   return (
     <div>
       <div>
+        <img src="/images/icons/icon-1.svg" alt="" />
         <h2>Pobierz aplikację</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
@@ -12,6 +13,7 @@ export default function Slider(): JSX.Element {
         <button>Pobierz aplikację</button>
       </div>
       <div>
+        <img src="/images/icons/icon-2.svg" alt="" />
         <h2>Porozmawiaj z lekarzem</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
@@ -22,6 +24,7 @@ export default function Slider(): JSX.Element {
         <button>Pobierz aplikację</button>
       </div>
       <div>
+        <img src="/images/icons/icon-3.svg" alt="" />
         <h2>Otrzymaj receptę</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
