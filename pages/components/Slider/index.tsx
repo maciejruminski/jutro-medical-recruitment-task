@@ -1,12 +1,15 @@
 import Slide from "./Slide";
 import Arrows from "./Arrows";
 import sliderData from "./sliderData";
+import slidesStyles from "./Slide/slidesStyles";
 
 import { useState } from "react";
 
 export default function Slider(): JSX.Element {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
-  const [mockupPosition, setMockupPosition] = useState("bottom");
+  const [mockupPosition, setMockupPosition] = useState(
+    slidesStyles[0].mockupPosition
+  );
 
   return (
     <div className="relative">
