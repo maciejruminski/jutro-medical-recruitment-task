@@ -44,9 +44,9 @@ export default function Arrows({
           <path
             className={`duration-1000 ease-in-out ${slidesStyles[activeSlideIndex].arrowColor}`}
             d="M9.71355 15.5486L0.902832 8.50001L9.71355 1.45143"
-            stroke-width="1.54188"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.54188"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
@@ -63,9 +63,9 @@ export default function Arrows({
           <path
             d="M0.808542 15.5486L9.61926 8.50001L0.808542 1.45143"
             className={`duration-1000 ease-in-out ${slidesStyles[activeSlideIndex].arrowColor}`}
-            stroke-width="1.54188"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.54188"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
