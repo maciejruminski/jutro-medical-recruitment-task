@@ -36,7 +36,7 @@ export default function Arrows({
         onClick={() => changeSlide("prev")}
       >
         <svg
-          className="w-[14px] h-auto md:w-[18px]"
+          className="w-[14px] h-auto md:w-[18px] xl:w-[14px]"
           viewBox="0 0 11 17"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ export default function Arrows({
         onClick={() => changeSlide("next")}
       >
         <svg
-          className="w-[14px] h-auto md:w-[18px]"
+          className="w-[14px] h-auto md:w-[18px] xl:w-[14px]"
           viewBox="0 0 11 17"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
