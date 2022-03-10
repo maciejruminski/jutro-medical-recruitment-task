@@ -28,11 +28,13 @@ export default function Arrows({
     setMockupPosition(slidesStyles[activeIndex].mockupPosition);
   };
   return (
-    <>
-      <button className="absolute top-1/2 z-30" onClick={showPrevSlide}>
+    <div className="max-w-[1700px] w-full top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] z-30 absolute">
+      <button
+        className="absolute left-[10px] md:left-[40px] xl:left-[30px] 2xl-[100px]"
+        onClick={showPrevSlide}
+      >
         <svg
-          width="11"
-          height="17"
+          className="w-[14px] h-auto md:w-[18px]"
           viewBox="0 0 11 17"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -46,10 +48,12 @@ export default function Arrows({
           />
         </svg>
       </button>
-      <button className="absolute top-1/2 z-30 left-20" onClick={showNextSlide}>
+      <button
+        className="absolute right-[10px] md:right-[40px] xl:right-[30px] 2xl-[100px]"
+        onClick={showNextSlide}
+      >
         <svg
-          width="11"
-          height="17"
+          className="w-[14px] h-auto md:w-[18px]"
           viewBox="0 0 11 17"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -63,6 +67,6 @@ export default function Arrows({
           />
         </svg>
       </button>
-    </>
+    </div>
   );
 }
