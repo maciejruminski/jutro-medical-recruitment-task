@@ -33,7 +33,7 @@ export default function Slide({
           }`}
         >
           <img src={iconSrc} alt={iconAlt} className="h-[80px] sm:h-[100px] md:h-[132px]" />
-          <h2 className="font-bold text-2xl mt-[56px] mb-[22px] sm:text-4xl md:mb-[33px] md:text-5xl">
+          <h2 className="font-bold text-2xl mt-[42px] mb-[22px] sm:text-4xl md:mb-[33px] md:text-5xl">
             {title}
           </h2>
           <p className="md:text-2xl font-semibold">{text}</p>
