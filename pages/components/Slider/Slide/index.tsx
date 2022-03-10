@@ -49,8 +49,8 @@ export default function Slide({
           alt={mockupAlt}
           className={`absolute top-0 left-0 duration-1000 w-full max-w-[430px] sm:max-w-[500px] md:max-w-[610px] md:left-[75px] lg:max-w-[710px] xl:left-auto xl:right-0 xl:max-w-[620px] ${
             mockupPosition === "bottom"
-              ? "top-full translate-y-[-380px] sm:translate-y-[-450px] md:translate-y-[-560px] lg:translate-y-[-660px] xl:translate-y-[-850px]"
-              : "top-0 translate-y-[calc(-100%+380px)] sm:translate-y-[calc(-100%+450px)] md:translate-y-[calc(-100%+560px)] lg:translate-y-[calc(-100%+660px)] xl:translate-y-[calc(-100%+850px)]"
+              ? "top-full translate-y-[-380px] sm:translate-y-[-450px] md:translate-y-[-560px] lg:translate-y-[-660px] xl:translate-y-[-800px]"
+              : "top-0 translate-y-[calc(-100%+380px)] sm:translate-y-[calc(-100%+450px)] md:translate-y-[calc(-100%+560px)] lg:translate-y-[calc(-100%+660px)] xl:translate-y-[calc(-100%+800px)]"
           }`}
         />
       </div>
