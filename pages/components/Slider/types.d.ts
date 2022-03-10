@@ -10,7 +10,7 @@ type Slide = {
 
 type SliderData = Slide[];
 
-type SlideColor = {
+type SlideStyles = {
   bg: string;
   color: string;
   buttonBg: string;
@@ -18,4 +18,4 @@ type SlideColor = {
   mockupPosition: string;
 };
 
-type SlidesColors = SlideColor[];
+type SlidesStyles = SlideStyles[];

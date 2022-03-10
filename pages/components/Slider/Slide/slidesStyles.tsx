@@ -1,4 +1,4 @@
-const slidesColors: SlidesColors = [
+const slidesStyles: SlidesStyles = [
   {
     bg: "bg-primary",
     color: "text-white",
@@ -22,4 +22,4 @@ const slidesColors: SlidesColors = [
   },
 ];
 
-export default slidesColors;
+export default slidesStyles;
