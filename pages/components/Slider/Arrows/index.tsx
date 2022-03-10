@@ -29,11 +29,39 @@ export default function Arrows({
   };
   return (
     <>
-      <button className="absolute z-10" onClick={showPrevSlide}>
-        prev
+      <button className="absolute top-1/2 z-30" onClick={showPrevSlide}>
+        <svg
+          width="11"
+          height="17"
+          viewBox="0 0 11 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.71355 15.5486L0.902832 8.50001L9.71355 1.45143"
+            stroke="white"
+            stroke-width="1.54188"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </button>
-      <button className="absolute z-10 left-20" onClick={showNextSlide}>
-        next
+      <button className="absolute top-1/2 z-30 left-20" onClick={showNextSlide}>
+        <svg
+          width="11"
+          height="17"
+          viewBox="0 0 11 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.808542 15.5486L9.61926 8.50001L0.808542 1.45143"
+            stroke="white"
+            stroke-width="1.54188"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </button>
     </>
   );
