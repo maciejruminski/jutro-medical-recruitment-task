@@ -1,7 +1,7 @@
 import Slide from "./Slide";
 
 export default function Slider(): JSX.Element {
-  const slidesData = [
+  const slidesData: SliderData = [
     {
       title: "Pobierz aplikację",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euturpis molestie, dictum est a, mattis tellus. Sed dignissim, metusnec fringilla accumsan, risus sem sollicitudin lacus, ut interdumtellus elit sed risus.",

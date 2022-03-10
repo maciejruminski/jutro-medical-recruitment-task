@@ -1,4 +1,4 @@
-export default function Slide({ data }: any): JSX.Element {
+export default function Slide({ data }: { data: Slide }): JSX.Element {
   const { iconSrc, iconAlt, title, text, buttonText, mockupSrc, mockupAlt } =
     data;
 
