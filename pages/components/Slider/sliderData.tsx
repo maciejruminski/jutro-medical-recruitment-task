@@ -10,7 +10,7 @@ const sliderData: SliderData = [
   },
   {
     title: "Porozmawiaj z lekarzem",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euturpis molestie, dictum est a, mattis tellus. Sed dignissim, metusnec fringilla accumsan, risus sem sollicitudin lacus, ut interdumtellus elit sed risus.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euturpis molestie, dictum est a, mattis tellus. Sed dignissim, metusnec fringilla accumsan, risus sem sollicitudin lacus, ut interdumtellus elit sed risus.",
     buttonText: "Pobierz aplikację",
     iconSrc: "/images/icons/icon-2.svg",
     iconAlt: "lorem ipsum",
@@ -19,7 +19,7 @@ const sliderData: SliderData = [
   },
   {
     title: "Otrzymaj receptę",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euturpis molestie, dictum est a, mattis tellus. Sed dignissim, metusnec fringilla accumsan, risus sem sollicitudin lacus, ut interdumtellus elit sed risus.",
+    text: "Dictum est a, mattis tellus. Sed dignissim, metusnec fringilla accumsan, risus sem sollicitudin lacus, ut interdumtellus elit sed risus.",
     buttonText: "Pobierz aplikację",
     iconSrc: "/images/icons/icon-3.svg",
     iconAlt: "lorem ipsum",
