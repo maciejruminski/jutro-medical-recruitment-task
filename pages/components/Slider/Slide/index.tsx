@@ -32,7 +32,7 @@ export default function Slide({
               : "translate-y-[380px] pt-[25px] sm:translate-y-[450px] md:translate-y-[560px] lg:translate-y-[660px] xl:translate-y-0"
           }`}
         >
-          <img src={iconSrc} alt={iconAlt} />
+          <img src={iconSrc} alt={iconAlt} className="h-[80px] sm:h-[100px] md:h-[132px]" />
           <h2 className="font-bold text-2xl mt-[56px] mb-[22px] sm:text-4xl md:mb-[33px] md:text-5xl">
             {title}
           </h2>
