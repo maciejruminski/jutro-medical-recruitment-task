@@ -15,6 +15,7 @@ type SlideColor = {
   color: string;
   buttonBg: string;
   buttonColor: string;
+  mockupPosition: string;
 };
 
 type SlidesColors = SlideColor[];
