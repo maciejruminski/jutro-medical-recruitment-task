@@ -22,6 +22,7 @@ export default function Slide({
 
   return (
     <div
+      aria-hidden={activeSlideIndex === index ? false : true}
       className={`${slideStyles.bg} ${slideStyles.color} absolute top-0 left-0 w-full ${isActive} duration-1000 ease-in-out`}
     >
       <div className="relative overflow-hidden mx-auto pb-[380px] max-w-[1400px] sm:pb-[450px] md:pb-[560px] lg:pb-[660px] xl:pb-0">
@@ -32,7 +33,11 @@ export default function Slide({
               : "translate-y-[380px] pt-[25px] sm:translate-y-[450px] md:translate-y-[560px] lg:translate-y-[660px] xl:translate-y-0"
           }`}
         >
-          <img src={iconSrc} alt={iconAlt} className="h-[80px] sm:h-[100px] md:h-[132px]" />
+          <img
+            src={iconSrc}
+            alt={iconAlt}
+            className="h-[80px] sm:h-[100px] md:h-[132px]"
+          />
           <h2 className="font-bold text-2xl mt-[42px] mb-[22px] sm:text-4xl md:mb-[33px] md:text-5xl">
             {title}
           </h2>
