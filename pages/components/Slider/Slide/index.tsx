@@ -1,4 +1,5 @@
 import slidesStyles from "./slidesStyles";
+import { Dispatch, SetStateAction } from "react";
 
 export default function Slide({
   data,
@@ -10,6 +11,8 @@ export default function Slide({
   index: number;
   activeSlideIndex: number;
   mockupPosition: string;
+  sliderHeight: number;
+  setSliderHeight: Dispatch<SetStateAction<number>>;
 }): JSX.Element {
   const { iconSrc, iconAlt, title, text, buttonText, mockupSrc, mockupAlt } =
     data;
