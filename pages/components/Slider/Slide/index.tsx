@@ -14,7 +14,8 @@ export default function Slide({
   const { iconSrc, iconAlt, title, text, buttonText, mockupSrc, mockupAlt } =
     data;
   const slideStyles = slidesStyles[index];
-  const isActive = activeSlideIndex === index ? "opacity-100" : "opacity-0";
+  const isActive =
+    activeSlideIndex === index ? "opacity-100 z-10" : "opacity-0 z-0";
 
   return (
     <div
