@@ -9,3 +9,12 @@ type Slide = {
 };
 
 type SliderData = Slide[];
+
+type SlideColor = {
+  bg: string;
+  color: string;
+  buttonBg: string;
+  buttonColor: string;
+};
+
+type SlidesColors = SlideColor[];

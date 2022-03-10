@@ -5,7 +5,7 @@ export default function Slider(): JSX.Element {
   return (
     <div>
       {sliderData.map((slide, index) => (
-        <Slide data={slide} key={index} />
+        <Slide data={slide} index={index} key={index} />
       ))}
     </div>
   );
