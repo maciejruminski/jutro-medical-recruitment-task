@@ -17,11 +17,11 @@ const slidesStyles: SlidesStyles = [
   },
   {
     bg: "bg-tertiary",
-    color: "text-black",
+    color: "text-dark",
     buttonBg: "bg-secondary",
     buttonColor: "text-white",
     mockupPosition: 'bottom',
-    arrowColor: "stroke-black"
+    arrowColor: "stroke-dark"
   },
 ];
 
