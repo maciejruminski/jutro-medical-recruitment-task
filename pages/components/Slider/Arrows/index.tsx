@@ -12,26 +12,28 @@ export default function Arrows({
   numberOfSlides: number;
   setMockupPosition: Dispatch<SetStateAction<string>>;
 }): JSX.Element {
-  const showPrevSlide = () => {
-    const activeIndex =
-      activeSlideIndex > 0 ? activeSlideIndex - 1 : numberOfSlides - 1;
+  const changeSlide = (direction: string) => {
+    let activeIndex = 0;
+
+    if (direction === "prev") {
+      activeIndex =
+        activeSlideIndex > 0 ? activeSlideIndex - 1 : numberOfSlides - 1;
+    }
+
+    if (direction === "next") {
+      activeIndex =
+        activeSlideIndex < numberOfSlides - 1 ? activeSlideIndex + 1 : 0;
+    }
 
     setActiveSlideIndex(activeIndex);
     setMockupPosition(slidesStyles[activeIndex].mockupPosition);
   };
 
-  const showNextSlide = () => {
-    const activeIndex =
-      activeSlideIndex < numberOfSlides - 1 ? activeSlideIndex + 1 : 0;
-
-    setActiveSlideIndex(activeIndex);
-    setMockupPosition(slidesStyles[activeIndex].mockupPosition);
-  };
   return (
     <div className="max-w-[1700px] w-full top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] z-30 absolute">
       <button
         className="absolute left-[10px] md:left-[40px] xl:left-[30px] 2xl-[100px]"
-        onClick={showPrevSlide}
+        onClick={() => changeSlide("prev")}
       >
         <svg
           className="w-[14px] h-auto md:w-[18px]"
@@ -50,7 +52,7 @@ export default function Arrows({
       </button>
       <button
         className="absolute right-[10px] md:right-[40px] xl:right-[30px] 2xl-[100px]"
-        onClick={showNextSlide}
+        onClick={() => changeSlide("next")}
       >
         <svg
           className="w-[14px] h-auto md:w-[18px]"
