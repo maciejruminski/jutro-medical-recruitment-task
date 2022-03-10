@@ -24,7 +24,7 @@ export default function Slide({
     <div
       className={`${slideStyles.bg} ${slideStyles.color} absolute top-0 left-0 w-full ${isActive} duration-1000 ease-in-out`}
     >
-      <div className="relative overflow-hidden pb-[380px] max-w-[1330px] sm:pb-[450px] md:pb-[560px] lg:pb-[660px] xl:pb-0">
+      <div className="relative overflow-hidden mx-auto pb-[380px] max-w-[1330px] sm:pb-[450px] md:pb-[560px] lg:pb-[660px] xl:pb-0">
         <div
           className={`p-[48px] md:px-[100px] duration-1000 xl:max-w-[750px] xl:py-[170px] ${
             mockupPosition === "bottom"
