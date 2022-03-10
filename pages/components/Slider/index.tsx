@@ -1,3 +1,5 @@
+import Slide from "./Slide";
+
 export default function Slider(): JSX.Element {
   const slidesData = [
     {
@@ -32,13 +34,7 @@ export default function Slider(): JSX.Element {
   return (
     <div>
       {slidesData.map((slide, index) => (
-        <div key={index}>
-          <img src={slide.iconSrc} alt={slide.iconAlt} />
-          <h2>{slide.title}</h2>
-          <p>{slide.text}</p>
-          <button>{slide.buttonText}</button>
-          <img src={slide.mockupSrc} alt={slide.mockupAlt} />
-        </div>
+        <Slide data={slide} key={index} />
       ))}
     </div>
   );
