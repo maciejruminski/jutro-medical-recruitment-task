@@ -21,7 +21,12 @@ export default function Slide({
       className={`${slideStyles.bg} ${slideStyles.color} absolute top-0 left-0 w-full ${isActive} duration-1000 ease-in-out`}
     >
       <div className="relative overflow-hidden pb-[380px]">
-        <div>
+        <div
+          className={`p-[48px] duration-1000 ${
+            mockupPosition === "bottom" ? "" : "translate-y-[380px]"
+          }
+          ${mockupPosition === "bottom" ? "pb-0" : "pt-[25px]"}`}
+        >
           <img src={iconSrc} alt={iconAlt} />
           <h2 className="font-bold text-2xl mt-[56px] mb-[22px] md:mb-[33px] md:text-5xl">
             {title}
